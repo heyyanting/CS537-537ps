@@ -88,11 +88,11 @@ make clean
 
 * func_print ( )
 
-    This function checks flags for each feature. If the flag for a feature is one, it will call the corresponding function for display output.
+    This function checks flags for each feature. If the flag for a feature is **1**, it will call the corresponding function for display output.
 
 * isnumber ( )
 
-    This function checks if an argument is a number. If it is a number, return 1; otherwise return 0.
+    This function checks if an argument is a number. If it is a number, return **1**; otherwise return **0**.
 
 * cmpstring ( )
 
