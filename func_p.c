@@ -23,6 +23,9 @@ void func_p(char* pid){
             break;
         }
     }
-    if(flag == 0) puts("cannot find the given pid"); exit(-1);
+    if(flag == 0) {
+        puts("cannot find the given pid"); 
+        exit(-1);
+    }
     closedir(procf);   
 }
